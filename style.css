@@ -1,0 +1,33 @@
+#container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: beige;
+  }
+  
+  .card{
+    width: 250px;
+    height: 80px;
+    padding: 5px;
+    margin: 10px;
+    background-color: rgb(216, 216, 80);
+    border: 5px solid blue;
+    border-radius: 40px;
+    text-align: center;
+  }
+  
+  .nombre_card{
+    font-weight: bolder;
+  }
+
+
+  button{
+    background-color: skyblue;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    width: 100px;
+    height: 50px;
+    padding: 5px;
+    border: solid 3px black;
+  }
